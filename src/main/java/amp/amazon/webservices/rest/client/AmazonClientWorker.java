@@ -53,20 +53,20 @@ public class AmazonClientWorker extends CommerceServiceClientBase
 	/*
      * Your AWS Access Key ID, as taken from the AWS Your Account page.
      */
-    //public String AWS_ACCESS_KEY_ID = "AKIAJUJEQFBKLVSUB4WQ";
-	public String AWS_ACCESS_KEY_ID = "AKIAIQU2FHPYCZDYXCIA";
+    //public String AWS_ACCESS_KEY_ID = "";
+	public String AWS_ACCESS_KEY_ID = "";
     /*
      * Your AWS Secret Key corresponding to the above ID, as taken from the AWS
      * Your Account page.
      */
-    //public String AWS_SECRET_KEY = "1rbtdzN0i+bYKrlS9NQoqVrVrQ+XHWzGNydVBB5z";
-	public String AWS_SECRET_KEY = "k9TUoikDHilxh11Ukrxl9PN1h4KxgQIpQ2HozC7w";
+    //public String AWS_SECRET_KEY = "";
+	public String AWS_SECRET_KEY = "";
 
     /**
      * Your AWS associate tag
      */
-    //public String AWS_ASSOCIATE_TAG = "allmarket05-20"; //canada working
-    public String AWS_ASSOCIATE_TAG = "allmarket0b-20";   //us working
+    //public String AWS_ASSOCIATE_TAG = ""; //canada working
+    public String AWS_ASSOCIATE_TAG = "";   //us working
   
 	public String getAWS_ACCESS_KEY_ID() {
 		return AWS_ACCESS_KEY_ID;
